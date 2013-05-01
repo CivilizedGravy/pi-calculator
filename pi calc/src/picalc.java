@@ -7,8 +7,9 @@ public class picalc {
 		double pip = 0;
 		// BBP Summation formula for PI
 		BigDecimal bd = new BigDecimal(pip);
+		int nthTerm = 100; //may not be completly accurate , pi is meant to be infinite
 		
-		while (k!=100) {
+		while (k!=nthTerm) {
 		
 			double denom = 8 * k;
 			double pow = 1 / (Math.pow(16, k));
